@@ -27,7 +27,7 @@ This one aims to provide a research environment for not strictly productive purp
 Which means the principal short-term goal is not to develop a productive firmware for final user rather than providing an environment in which anyone can test and experiment any concrete approach to feed the community with good quality, state-of-the-art or innovative feature increments.
 
 ## Features
-* "Clean" hardware abstraction.
+* Clean hardware abstraction.
 * Vector geometry / linear algebra calculus for kinematics
   * Smooth acceleration and jerk limited motion plan leveraging "Trajectory with Double S Velocity Profile" [1]. Briefly explained at [Plan implementation](src/bin/printhor/control/motion/profile.rs) and visualy explained in [Printhor motion plan. A simplified overview of the velocity integration](https://www.geogebra.org/m/hwpnmhcu) (GeoGebra).
     
